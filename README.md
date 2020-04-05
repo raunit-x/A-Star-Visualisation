@@ -1,3 +1,1 @@
-# JS-Sketches
-# JS-Sketches
-# JS-Sketches
+# A Star Search Algorithm visualisation
