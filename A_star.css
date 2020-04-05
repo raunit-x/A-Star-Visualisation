@@ -1,0 +1,85 @@
+button:focus {
+    outline:none;
+}
+h1{
+	text-align: center;
+	color: yellow;
+	font-family: 'Press Start 2P', cursive;
+}
+
+h4 {
+	text-align: center;
+	color: red;
+	font-family: 'Press Start 2P', cursive;
+}
+
+body {
+	background-color: black;
+	background-attachment: fixed;
+}
+
+#defaultCanvas0 {
+	margin-left: 20%;
+	padding-bottom: 100px;
+}
+
+.btn-group {
+  /*background-color: #4CAF50;  Green background */
+  border: 0px solid green; /* Green border */
+  margin-left: 28%;
+  color: white; /* White text */
+  width: 100%;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  padding-bottom: 30px;
+}
+
+#startButton {
+  background-color: #2d9f13; /* Green */
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+  margin-right: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+#startButton:hover {
+	background-color: #2dff13;
+}
+
+#restartButton {
+	font-family: 'Press Start 2P', cursive;
+	background-color: #990000; 
+  border: none;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+#restartButton:hover {
+	background-color: red;
+}
+
+#shapeButton {
+  background-color: #2d9f13; /* Green */
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+  margin-right: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
