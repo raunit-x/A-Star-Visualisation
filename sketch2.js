@@ -23,29 +23,29 @@ function toggleShape()
 	document.getElementById("shapeButton").innerHTML = (circles) ? "RECTANGLES" : "CIRCLES";
 }
 
-// function mousePressed()
-// {
-// 	var x = mouseX;
-// 	var y = mouseY;
-// 	console.log('pressed!');
-// 	if(x < 0 || x > width || y < 0 || y > height)
-// 		{
-// 			console.log('out!');
-// 			return;
-// 		};
-// 	console.log(x + ',' + y);
-// 	for(var i = 0; i < cols; ++i)
-// 	{
-// 		for(var j = 0; j < rows; ++j)
-// 		{
-// 			var val = grid[i][j];
-// 			if(x >= val.i * w  && x <= val.i * w + w && y >= val.j * h && y <= val.j * h + h)
-// 			{
-// 				grid[i][j].obstacle = true;
-// 			}
-// 		}
-// 	}
-// }
+function mousePressed()
+{
+	var x = mouseX;
+	var y = mouseY;
+	console.log('pressed!');
+	if(x < 0 || x > width || y < 0 || y > height)
+		{
+			console.log('out!');
+			return;
+		};
+	console.log(x + ',' + y);
+	for(var i = 0; i < cols; ++i)
+	{
+		for(var j = 0; j < rows; ++j)
+		{
+			var val = grid[i][j];
+			if(x >= val.i * w  && x <= val.i * w + w && y >= val.j * h && y <= val.j * h + h)
+			{
+				grid[i][j].obstacle = true;
+			}
+		}
+	}
+}
 
 
 function reset()
